@@ -31,6 +31,7 @@ const router = createRouter({
     { path: '/ex23', component: () => import('../views/Ex23TodoView.vue') },
     { path: '/ex24', component: () => import('../views/Ex24MemoriaView.vue') },
     { path: '/ex25', component: () => import('../views/Ex25DashboardView.vue') },
+    { path: '/ex26', component: () => import('../views/Ex26ComponentsDinamicsView.vue') },
   ],
 })
 

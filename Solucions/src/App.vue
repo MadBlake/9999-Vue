@@ -29,6 +29,7 @@ export default defineComponent({
           { num: '13', nom: 'Comptador pare-fill' },
           { num: '14', nom: 'v-model personalitzat' },
           { num: '15', nom: 'Targeta amb slots' },
+          { num: '26', nom: 'Components dinàmics' },
         ]},
         { titol: 'Bloc 4 — Reactivitat', color: '#e67e22', exercicis: [
           { num: '16', nom: 'Historial de cerca' },
