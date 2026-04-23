@@ -299,6 +299,18 @@ Crea un dashboard amb dades fictícies de vendes:
 
 ---
 
+### Exercici 26 — Components dinàmics amb KeepAlive
+Crea un component que mostri tres pestanyes intercanviables usant `<component :is>`:
+- Les pestanyes han de ser tres components separats: `PestanyaInfo`, `PestanyaEstadistiques` (amb comptador intern), `PestanyaConfiguracio` (amb formulari intern)
+- Un computed `componentActiu` retorna la definició del component actiu
+- Un `<checkbox>` activa o desactiva `<KeepAlive>`
+- Demostra la diferència: sense KeepAlive l'estat es perd en canviar de pestanya; amb KeepAlive es conserva
+- Mostra el codi d'exemple de com usar `<component :is>` i `<KeepAlive>`
+
+**Conceptes:** `<component :is>`, `<KeepAlive>`, subcomponents inline (`defineComponent`), `computed` que retorna una definició de component, `:key` per forçar re-renderitzat
+
+---
+
 ## Notes per als exercicis
 
 - **TypeScript**: usa sempre `lang="ts"` al bloc `<script>`
