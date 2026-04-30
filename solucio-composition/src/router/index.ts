@@ -32,6 +32,16 @@ const router = createRouter({
     { path: '/ex24', component: () => import('../views/Ex24MemoriaView.vue') },
     { path: '/ex25', component: () => import('../views/Ex25DashboardView.vue') },
     { path: '/ex26', component: () => import('../views/Ex26ComponentsDinamicsView.vue') },
+    // Bloc 6 — Connexió a APIs amb reactivitat
+    { path: '/ex27', component: () => import('../views/Ex27FetchView.vue') },
+    { path: '/ex28', component: () => import('../views/Ex28BuscadaView.vue') },
+    { path: '/ex29', component: () => import('../views/Ex29PaginacioView.vue') },
+    { path: '/ex30', component: () => import('../views/Ex30TransformacioView.vue') },
+    { path: '/ex31', component: () => import('../views/Ex31CacheView.vue') },
+    { path: '/ex32', component: () => import('../views/Ex32FiltreComentarisView.vue') },
+    { path: '/ex33', component: () => import('../views/Ex33CrudTodoView.vue') },
+    { path: '/ex34', component: () => import('../views/Ex34ClimaView.vue') },
+    { path: '/ex35', component: () => import('../views/Ex35GithubReposView.vue') },
   ],
 })
 

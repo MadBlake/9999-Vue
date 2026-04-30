@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="ts" name="Ex02LlumView">
 import { ref } from 'vue'
 
 const encesa = ref(false)
